@@ -100,7 +100,7 @@ class Game{
         // Add code to destroy fruits, calculate scores and
         // update the scores to the database
         if(player.index !== null){
-            for(var i = 0; i < fruitGroup.lenght; i++){
+            for(var i = 0; i < fruitGroup.length; i++){
                 if(fruitGroup.get(i).isTouching(players)){
                     fruitGroup.get(i).destroy();
                     player.score = player.score+1;
